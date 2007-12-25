@@ -1,0 +1,20 @@
+---
+name: Test-Pod-Content
+version: v0.0.2
+author:
+  - 'Martin Kutter <martin.kutter@fen-net.de>'
+abstract: Test Pod content
+license: artistic
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+requires:
+  Pod::Simple: 0
+  Test::More: 0
+provides:
+  Test::Pod::Content:
+    file: lib/Test/Pod/Content.pm
+    version: v0.0.2
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

@@ -1,0 +1,9 @@
+Build.PL
+Changes
+lib/Test/Pod/Content.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/license.t
+t/synopsis.t
