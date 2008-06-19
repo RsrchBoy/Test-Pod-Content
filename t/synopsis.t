@@ -1,3 +1,4 @@
+use strict; use warnings;
 use lib '../lib';
 use Test::Pod::Content tests => 3;
 pod_section_is 'Test::Pod::Content' , 'NAME', "Test::Pod::Content - Test a Pod's content", 'NAME section';

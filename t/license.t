@@ -1,3 +1,4 @@
+use strict; use warnings;
 use Test::More;
 use Test::Pod::Content;
 my @filelist = qw( Test::Pod::Content );
