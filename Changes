@@ -1,3 +1,7 @@
+0.0.5
+- added kwalitee tests to MANIFEST
+- fixed version string error
+
 0.0.4
 - added kwalitee tests
 - fixed a POD error

@@ -1,6 +1,6 @@
 ---
 name: Test-Pod-Content
-version: v0.0.4
+version: 0.0.5
 author:
   - 'Martin Kutter <martin.kutter@fen-net.de>'
 abstract: Test Pod content
@@ -14,7 +14,7 @@ requires:
 provides:
   Test::Pod::Content:
     file: lib/Test/Pod/Content.pm
-    version: v0.0.4
+    version: 0.0.5
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use base qw(Pod::Simple Test::More);
 use Exporter;
-use version; our $VERSION = qv(0.0.4);
+use version; our $VERSION = qv('0.0.5');
 
 our @EXPORT = qw(pod_section_is pod_section_like);
 
