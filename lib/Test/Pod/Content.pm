@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use base qw(Pod::Simple Test::More);
 use Exporter;
-use version; our $VERSION = qv('0.0.5');
+use version; our $VERSION = qv('0.0.6');
 
 our @EXPORT = qw(pod_section_is pod_section_like);
 
@@ -253,10 +253,10 @@ Martin Kutter E<lt>martin.kutter fen-net.deE<gt>
 
 =head1 REPOSITORY INFORMATION
 
- $Id: Content.pm 504 2008-06-19 18:45:05Z kutterma $
- $Revision: 504 $
+ $Id: Content.pm 505 2008-06-22 09:54:54Z kutterma $
+ $Revision: 505 $
  $Source: a $
- $Date: 2008-06-19 20:45:05 +0200 (Do, 19 Jun 2008) $
+ $Date: 2008-06-22 11:54:54 +0200 (So, 22 Jun 2008) $
  $HeadURL: http://svn.hyper-framework.org/Hyper/Test-Pod-Content/trunk/lib/Test/Pod/Content.pm $
 
 =cut

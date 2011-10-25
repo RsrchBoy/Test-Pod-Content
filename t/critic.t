@@ -1,3 +1,14 @@
+use strict;
+use warnings;
+
+use Test::More;
+
+if ( not $ENV{RELEASE_TESTING} ) {
+	my $msg = 'Author test.  Set $ENV{RELEASE_TESTING} to a true value to run.';
+	plan( skip_all => $msg );
+	exit 0;
+}
+
 eval {
     require Test::Perl::Critic;
     Test::Perl::Critic::import('Test::Perl::Critic',
@@ -5,7 +16,6 @@ eval {
     );
 };
 if ($@) {
-    require Test::More;
     Test::More::plan( 
        skip_all => 'Test::Critic required for testing criticism'
     );
