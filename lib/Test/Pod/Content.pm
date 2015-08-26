@@ -76,12 +76,12 @@ sub _find_file {
     my $name = shift;
     return $name if (-e $name);
     for my $path (@INC) {
-        return "$path/$name" if -e "$path/$name";
+        return "$path/$name" if -f "$path/$name";
     }
     $name =~s{::}{/}xmg;
     $name .= '.pm';
     for my $path (@INC) {
-        return "$path/$name" if -e "$path/$name";
+        return "$path/$name" if -f "$path/$name";
     }
     return;
 }
